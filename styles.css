@@ -1,0 +1,77 @@
+/* styles.css */
+
+body {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #343a40; /* Darker text color */
+}
+
+.modal-header {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+}
+
+.modal-footer {
+    background-color: #f1f1f1; /* Light footer color */
+}
+
+.table {
+    background-color: #343a40; /* Dark table background */
+    color: white; /* White text color */
+}
+
+.table th, .table td {
+    vertical-align: middle; /* Center align table cells */
+}
+
+.table img {
+    border-radius: 50%; /* Circular profile images */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff; /* Match border color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3; /* Match border color */
+}
+
+.btn-warning {
+    background-color: #ffc107; /* Bootstrap warning color */
+    border-color: #ffc107; /* Match border color */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Bootstrap danger color */
+    border-color: #dc3545; /* Match border color */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker red on hover */
+    border-color: #bd2130; /* Match border color */
+}
+
+.form-control {
+    border-radius: 0.25rem; /* Rounded corners for inputs */
+}
+
+.logout-btn {
+    background-color: #dc3545; /* Bootstrap danger color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #c82333; /* Darker shade on hover */
+    text-decoration: none; /* Ensure no underline on hover */
+}
